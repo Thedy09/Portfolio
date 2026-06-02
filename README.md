@@ -16,13 +16,22 @@ Ouvrir http://localhost:8080
 1. Ajouter Calendly / Tally dans le bouton « Réserver un appel » si besoin
 2. Déployer sur Vercel, Netlify ou GitHub Pages
 
-## Déploiement GitHub Pages
+## Publier sur GitHub (sans co-auteur Cursor)
+
+1. Créer le repo vide sur GitHub : `thedy-freelance-portfolio` (sans README)
+2. Pousser :
 
 ```bash
-git add .
-git commit -m "Add freelance portfolio"
-git remote add origin git@github.com:Thedy09/thedy-freelance-portfolio.git
+cd /home/thedy/Projects/thedy-freelance-portfolio
 git push -u origin main
 ```
 
-Puis activer Pages sur la branche `main` / dossier racine.
+Un hook `commit-msg` retire automatiquement toute ligne `Co-authored-by: Cursor`.
+
+## Déployer sur Vercel
+
+1. [vercel.com/new](https://vercel.com/new) → Import `Thedy09/thedy-freelance-portfolio`
+2. Framework : **Other** · Build / Output : **vides**
+3. Deploy
+
+Lien direct d’import : https://vercel.com/new/clone?repository-url=https://github.com/Thedy09/thedy-freelance-portfolio
