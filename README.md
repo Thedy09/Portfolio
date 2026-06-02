@@ -18,8 +18,7 @@ Ouvrir http://localhost:8080
 
 ## Publier sur GitHub (sans co-auteur Cursor)
 
-1. Créer le repo vide sur GitHub : `thedy-freelance-portfolio` (sans README)
-2. Pousser :
+Repo GitHub : **https://github.com/Thedy09/Portfolio**
 
 ```bash
 cd /home/thedy/Projects/thedy-freelance-portfolio
@@ -30,8 +29,8 @@ Un hook `commit-msg` retire automatiquement toute ligne `Co-authored-by: Cursor`
 
 ## Déployer sur Vercel
 
-1. [vercel.com/new](https://vercel.com/new) → Import `Thedy09/thedy-freelance-portfolio`
+1. [vercel.com/new](https://vercel.com/new) → Import `Thedy09/Portfolio`
 2. Framework : **Other** · Build / Output : **vides**
 3. Deploy
 
-Lien direct d’import : https://vercel.com/new/clone?repository-url=https://github.com/Thedy09/thedy-freelance-portfolio
+Lien direct : https://vercel.com/new/clone?repository-url=https://github.com/Thedy09/Portfolio
